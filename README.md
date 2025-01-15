@@ -57,13 +57,12 @@ To handle box collisions, I compared each of the position's coordinates to the c
 
 Event Handlers Revisited: I added 3 more events based on the user's mouse inputs. If the user clicks down, the particle at the mouse pointer is recorded and I caulcuated the distance between this particle to the camera's position. When the user moves the mouse while holding down and the shift key, I make the cloth follow the mouse by using the raycaster multiplied by the distance previously calculated and adding camera position to get the new position.
 
-![mousemove.webm](https://github.com/Danica-T/Cloth-Simulation/blob/main/results/mousemove.webm)
+![mousemove.gif](https://github.com/Danica-T/Cloth-Simulation/blob/main/results/mousemove.gif)
 
 Rain: To apply rain, I went through each "rate" raindrop and found a random coordinate. At the particle that was "hit", I added the impulse (which is just a negative y value with magnitide of the given strength).I added a weaker impusle (by 0.15, which was choosen arbitrarily based on what I thought looked best) to the particles surrounding the hit particle.
 
-![rain.mov](https://github.com/Danica-T/Cloth-Simulation/blob/main/results/rain.mov)
+![rain.gif](https://github.com/Danica-T/Cloth-Simulation/blob/main/results/rain.gif)
 
 Wind: To apply a more interesting wind, I used sinusoidal functions. The used functions were choosen arbitrarily based on what I thought looked best.
 
-![wind.webm](https://github.com/Danica-T/Cloth-Simulation/blob/main/results/wind.webm)
-
+![wind.gif](https://github.com/Danica-T/Cloth-Simulation/blob/main/results/wind.gif)
