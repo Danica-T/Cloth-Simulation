@@ -1,6 +1,6 @@
 # Cloth-Simulation
 
-This project was completed in 2022 for COS426: Computer Graphics @ Princeton University. The code implements a 2D image processor with a variety of filters and operations.
+This project was completed in 2022 for COS426: Computer Graphics @ Princeton University. The code implements a cloth simulation with detailed physics and environmental engines. 
 
 ## Description
 
